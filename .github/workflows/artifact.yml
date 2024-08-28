@@ -28,7 +28,7 @@ jobs:
     - name: read artifact
       uses: actions/download-artifact@v2
       with: 
-        name: hello.txt
+        name: hello-artifact
        
       
     - name: display steps 
