@@ -12,8 +12,8 @@ jobs:
 
     - name: Create a text file
       run: |
-      mkdir artifacts
-      echo "Hello, world!" > ./artifacts/hello.txt
+       mkdir artifacts
+       echo "Hello, world!" > ./artifacts/hello.txt
 
     - name: Archive text file
       uses: actions/upload-artifact@v2
