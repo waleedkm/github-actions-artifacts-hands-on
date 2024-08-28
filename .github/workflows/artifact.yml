@@ -20,7 +20,7 @@ jobs:
         path: hello.txt
 
   download:
-    naeeds: build
+    needs: build
     runs-on: ubuntu-latest
 # tatas
     steps:
