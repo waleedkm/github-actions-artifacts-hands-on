@@ -33,4 +33,4 @@ jobs:
       
     - name: display steps 
       run: |
-          cat hello.txt
+          ./artifacts/hello.txt
